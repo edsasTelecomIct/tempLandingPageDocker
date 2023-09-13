@@ -1,0 +1,14 @@
+version: '3.0'
+
+services:
+  landingpage_1:
+    build:
+      context: ./landingpage_1
+    ports:
+      - 3001:3000
+
+  landingpage_2:
+    build:
+      context: ./landingpage_2
+    ports:
+      - 3000:3000
